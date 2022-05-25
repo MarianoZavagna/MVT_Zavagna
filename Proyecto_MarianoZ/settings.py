@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Proyecto_MarianoZ.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/Mariano.Z/Desktop/Coderhouse/Proyecto_MarianoZ/Proyecto_MarianoZ/templates"],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
