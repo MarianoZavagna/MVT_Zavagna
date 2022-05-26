@@ -7,8 +7,8 @@ from app1.models import Family
 # Create your views here.
 
 
-def post_family(request, name: str, dni: int):
-    family = Family(name=name, dni=dni)
+def post_family(request, name: str, dni: int, nacdate: str):
+    family = Family(name=name, dni=dni, nacdate=nacdate)
     family.save() # guardo en base de datos
 
     context_dict = {
